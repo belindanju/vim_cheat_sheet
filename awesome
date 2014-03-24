@@ -1,0 +1,8 @@
+# Save changes to read-only files 
+:w !sudo tee % 
+
+# go back buffer history 
+:earlier 15m
+:later
+g+
+g-
